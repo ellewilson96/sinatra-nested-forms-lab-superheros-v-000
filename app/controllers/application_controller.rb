@@ -11,4 +11,8 @@ class App < Sinatra::Base
     get '/superheroes' do
       erb :super_hero
     end
+
+    get '/teams' do 
+      erb :team 
+    end
 end
