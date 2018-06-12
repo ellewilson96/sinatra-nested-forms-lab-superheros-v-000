@@ -1,5 +1,5 @@
 class Superhero
-  attr_reader :name, :power, :bio 
+  attr_reader :name, :power, :bio
 
 SUPERHEROES = []
 
@@ -9,3 +9,8 @@ SUPERHEROES = []
     @bio = args[:bio]
     SUPERHEROES << self
   end
+
+  def self.all
+    SUPERHEROES
+  end
+end
