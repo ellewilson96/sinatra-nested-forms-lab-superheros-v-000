@@ -13,4 +13,5 @@ SUPERHEROES = []
   def self.all
     SUPERHEROES
   end
+  
 end
